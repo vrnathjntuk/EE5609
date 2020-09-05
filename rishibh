@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+
+\title{Assignment 1}
+\author{D V K M Rishab, AI20MTECH14004 }
+\date{September 2, 2020}
+
+\begin{document}
+
+\maketitle
+
+\section*{Assignment 1}
+ Solution: 
+  \newline \newline
+ Given $\overrightarrow{P} = \begin{pmatrix} 7 \\ 6 \\ \end{pmatrix}$ and $\overrightarrow{Q} = \begin{pmatrix} 3 \\ 4 \\ \end{pmatrix}$. Let $\overrightarrow{X}=\begin{pmatrix} x \\ y \\ \end{pmatrix}$ be the point equidistant from both the $\overrightarrow{P}$ and $\overrightarrow{Q}$. The mid point is 
+ \[
+ \overrightarrow{X}=\frac{\overrightarrow{P}+\overrightarrow{Q}}{2}
+ \]
+ \[
+ \overrightarrow{X}=\begin{pmatrix} x \\ y \\ \end{pmatrix}=\begin{pmatrix} \frac{7+3}{2} \\ \frac{6+4}{2}
+   \\ \end{pmatrix}=\begin{pmatrix} 5 \\ 5 \\ \end{pmatrix}
+ \]
+ Since the point is on the x-axis, $y=0$ and therefore $\begin{pmatrix} 5 \\ 0 \\ \end{pmatrix}$ is the required point. \end{document}
